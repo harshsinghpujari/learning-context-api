@@ -1,12 +1,93 @@
-# React + Vite
+# Login Page using React Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: [https://login-page-contextapi.netlify.app](https://login-page-contextapi.netlify.app)
 
-Currently, two official plugins are available:
+This is a simple React project built to demonstrate and practice the **Context API**. The app accepts a username and password via a form and displays a personalized welcome message using global state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Accepts **username** and **password** input.
+- 🌍 Uses **React Context API** to manage global state (no prop drilling).
+- 👋 Displays a personalized **welcome message** after login.
+- 💻 Responsive and beginner-friendly layout.
+- 📦 Built with **React** and **Vite** (or CRA, if applicable).
+
+---
+
+## 🧠 What I Learned
+
+- How to create and provide a custom `Context`
+- Using `useContext` and `useState` for global state management
+- Structuring a clean and minimal app with shared state across components
+
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React
+- 🧠 Context API
+- 🎨 Tailwind CSS / CSS Modules (if used)
+- ⚡ Vite (or Create React App)
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/
+│ └── LoginForm.jsx
+│ └── Welcome.jsx
+├── contexts/
+│ └── AuthContext.jsx
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/harshsinghpujari/learning-context-api.git
+cd learning-context-api
+npm install
+npm run dev   # or npm start if using CRA
+```
+
+🧠 Author
+
+Himanshu singh
+📫 View my GitHub
+
+🌐 Deployment
+
+This project is deployed on Netlify:
+https://login-page-contextapi.netlify.app
+
+To deploy your own version:
+
+    Push your code to GitHub
+
+    Go to Netlify
+
+    Click “Import from GitHub”
+
+    Set:
+
+        Build Command: npm run build
+
+        Publish Directory: dist (for Vite) or build (for CRA)
+
+    Click Deploy
+
+📃 License
+
+This project is for educational purposes and is open to all learners.
+
+
+---
